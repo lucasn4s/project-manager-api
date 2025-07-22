@@ -20,13 +20,19 @@
    php artisan key:generate
    ```
 
-4. Execute as migrações:
+4. Para que o armazenamento local funcione corretamente, execute o comando a seguir:
+
+   ```bash
+   php artisan storage:link
+   ```
+
+5. Execute as migrações:
 
    ```bash
    php artisan migrate
    ```
 
-5. Execute a aplicação com o comando:
+6. Execute a aplicação com o comando:
    
    ```bash
    php artisan serve
